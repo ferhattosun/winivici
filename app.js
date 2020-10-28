@@ -82,8 +82,8 @@ var chat_id;
   chat_id = chatId
 
   // send a message to the chat acknowledging receipt of their message
-  //bot.sendMessage(chatId, 'Bot Çalıştı');
-  console.log("Sistem Çalışıyor..");
+  bot.sendMessage(chatId, 'Bot Çalıştı');
+  
 });
 
 
